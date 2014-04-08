@@ -19,6 +19,6 @@ the input to the mapper is table rows ,find out sum of all purchase amount for a
 
 **How to run**
 
-Use <code> mvn eclipse:eclipse </code> to create an eclipse project ,export a an executable jar file from eclipse .
+Use <code> mvn eclipse:eclipse </code> to create an eclipse project ,then import the project to Eclipse workspace ,export an executable jar file from Eclipse .
 
 **hadoop jar** <code>path-to-jar-file</code> <code> database-server</code> <code>database</code> <code>user</code> <code>password</code> <code>output-folder-path</code>
