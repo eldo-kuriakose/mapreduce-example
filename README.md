@@ -15,3 +15,10 @@ Id            | customer      |  amount
 
 
 the input to the mapper is table rows ,find out sum of all purchase amount for a customer in reduce phase .
+
+
+**How to run**
+
+Use <code> mvn eclipse:eclipse </code> to create an eclipse project ,export a an executable jar file from eclipse .
+
+**hadoop jar** <code>path-to-jar-file</code> <code> database-server</code> <code>database</code> <code>user</code> <code>password</code> <code>output-folder-path</code>
